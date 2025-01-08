@@ -1,6 +1,8 @@
 import ContributionForm from "./components/contribution-form.tsx";
 import ChoicePerso from "./components/choice-perso.tsx";
 import {useState} from "react";
+import supabase from "./supabase-client.ts";
+
 
 function App() {
 
@@ -17,5 +19,6 @@ function App() {
         </>
     )
 }
+//
 
 export default App
